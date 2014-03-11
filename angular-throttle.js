@@ -13,6 +13,10 @@ angular
 			no_trailing = undefined;
 		}
 
+		if (typeof callback !== 'function') {
+			return function noop() { };
+		}
+
 		var wrapper = function () {
 			var that = this;
 			var elapsed = +new Date() - last_exec;
