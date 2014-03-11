@@ -1,0 +1,30 @@
+{
+  "name": "angular-throttle",
+  "version": "0.0.1-pre",
+  "authors": [
+    "hongymagic <d.hong@me.com>"
+  ],
+  "description": "A function to throttle execution flow. Based on \"Cowboy\" Ben Alman's throttle/debounce library.",
+  "main": "angular-throttle.js",
+  "keywords": [
+    "angular",
+    "ng",
+    "throttle",
+    "angular-throttle"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.14"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.14"
+  }
+}

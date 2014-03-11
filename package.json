@@ -1,0 +1,43 @@
+{
+  "name": "angular-throttle",
+  "version": "0.0.1-pre",
+  "description": "",
+  "main": "angular-throttle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "keywords": [
+    "angular",
+    "throttle",
+    "ng-throttle",
+    "angular-throttle"
+  ],
+  "author": "David G. Hong <davidhong.code@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint-stylish": "^0.1.5",
+    "grunt-contrib-watch": "^0.5.3",
+    "grunt": "^0.4.3",
+    "grunt-contrib-jshint": "^0.8.0",
+    "jshint-teamcity": "^1.0.4",
+    "grunt-contrib-uglify": "^0.4.0",
+    "karma-script-launcher": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.2",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-jasmine": "^0.1.5",
+    "requirejs": "^2.1.11",
+    "karma-requirejs": "^0.2.1",
+    "karma-coffee-preprocessor": "^0.1.3",
+    "karma-phantomjs-launcher": "^0.1.2",
+    "karma": "^0.10.9",
+    "grunt-karma": "^0.6.2",
+    "load-grunt-tasks": "^0.4.0",
+    "grunt-lintspaces": "^0.4.1",
+    "karma-teamcity-reporter": "^0.1.1",
+    "karma-coverage": "^0.2.0"
+  }
+}
